@@ -2,6 +2,7 @@ public class Main {
     public static void main(String[] args) {
         task1();
         task2();
+        task3();
     }
     public static void task1(){
         System.out.println("Задача 1");
@@ -26,6 +27,14 @@ public class Main {
         short arm = -159;
         short torso = 27897;
         byte apple = 67;
+    }
+    public static void task3(){
+        byte studL = 23;
+        byte studA = 27;
+        byte studE = 30;
+        short paper = 480;
+        int paperEach = paper / (studA + studE + studL);
+        System.out.println("На каждого ученика рассчитано " + paperEach + " истов бумаги");
 
     }
 }
