@@ -6,6 +6,7 @@ public class Main {
         task4();
         task5();
         task6();
+        task7();
     }
     public static void task1(){
         System.out.println("Задача 1");
@@ -23,6 +24,7 @@ public class Main {
         System.out.println("Значение переменной hehe с типом double равно " + hehe);
     }
     public static void task2(){
+        System.out.println("Задача 2");
         float banana = 27.12f;
         long kiwi = 987678965549l;
         float orange = 2.786f;
@@ -32,6 +34,7 @@ public class Main {
         byte apple = 67;
     }
     public static void task3(){
+        System.out.println("Задача 3");
         byte studL = 23;
         byte studA = 27;
         byte studE = 30;
@@ -41,6 +44,7 @@ public class Main {
 
     }
     public static void task4(){
+        System.out.println("Задача 4");
         byte bottlesPM = 16 / 2;
         int bottles20M = bottlesPM * 20;
         int bottles1D = bottlesPM * 60 * 24;
@@ -53,6 +57,7 @@ public class Main {
 
     }
     public static void task5(){
+        System.out.println("Задача 5");
         byte paintGlob = 120;
         byte whiteForClass = 2;
         byte brownForClass = 4;
@@ -63,6 +68,18 @@ public class Main {
         System.out.println("В школе, где " + classN + " классов, нужно " + whiteGlob + " банок белой краски и " + brownGlob + " банок коричневой краски");
     }
     public static void task6(){
+        System.out.println("Задача 6");
+        int bananaW = 80;
+        int milkW = 105;
+        int iceCreamW = 100;
+        int eggW = 70;
+        int listWg = (bananaW * 5) + (milkW * 2) + (iceCreamW * 2) + (eggW * 4);
+        double listWkg =  (listWg *0.001);
+        System.out.println("Масса завтрака в граммах " + listWg);
+        System.out.println("Масса завтрака в килограммах " + listWkg);
+
+    }
+    public static void task7(){
 
     }
 }
