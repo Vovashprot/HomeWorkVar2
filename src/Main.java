@@ -22,7 +22,7 @@ public class Main {
     public static void task2(){
         float banana = 27.12f;
         long kiwi = 987678965549l;
-        int orange = 2786;
+        float orange = 2.786f;
         short leg = 569;
         short arm = -159;
         short torso = 27897;
