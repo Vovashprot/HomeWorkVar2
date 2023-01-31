@@ -80,6 +80,12 @@ public class Main {
 
     }
     public static void task7(){
-
+        System.out.println("Задача 7");
+        short massMin = 250;
+        short massMax = 500;
+        short NeededMass = 7000;
+        int daysMinMass = 7000 / 250;
+        int daysMaxMass = 7000 / 500;
+        System.out.println("Со скоростью " + massMin + " спортсмен похудеет за "+ daysMinMass +" дней. Со скоростью " + massMax + " - "+ daysMaxMass +".");
     }
 }

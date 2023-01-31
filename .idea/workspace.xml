@@ -4,11 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7dff5433-81ae-488a-9c3b-063ae408819e" name="Changes" comment="5 task">
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="7dff5433-81ae-488a-9c3b-063ae408819e" name="Changes" comment="6 task">
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -55,7 +51,7 @@
       <updated>1675011441843</updated>
       <workItem from="1675011442986" duration="910000" />
       <workItem from="1675149043218" duration="4125000" />
-      <workItem from="1675192059249" duration="1822000" />
+      <workItem from="1675192059249" duration="2513000" />
     </task>
     <task id="LOCAL-00001" summary="start">
       <created>1675021841148</created>
@@ -113,7 +109,14 @@
       <option name="project" value="LOCAL" />
       <updated>1675154601487</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="6 task">
+      <created>1675194101904</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1675194101904</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -136,6 +139,7 @@
     <MESSAGE value="3 task" />
     <MESSAGE value="4 task" />
     <MESSAGE value="5 task" />
-    <option name="LAST_COMMIT_MESSAGE" value="5 task" />
+    <MESSAGE value="6 task" />
+    <option name="LAST_COMMIT_MESSAGE" value="6 task" />
   </component>
 </project>
