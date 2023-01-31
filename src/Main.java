@@ -7,6 +7,7 @@ public class Main {
         task5();
         task6();
         task7();
+        task8();
     }
     public static void task1(){
         System.out.println("Задача 1");
@@ -87,5 +88,17 @@ public class Main {
         int daysMinMass = 7000 / 250;
         int daysMaxMass = 7000 / 500;
         System.out.println("Со скоростью " + massMin + " спортсмен похудеет за "+ daysMinMass +" дней. Со скоростью " + massMax + " - "+ daysMaxMass +".");
+    }
+    public static void task8() {
+        System.out.println("Задача 8");
+        int MashaS = 67760;
+        int DenisS = 83690;
+        int KristinaS = 76230;
+        double MashaSNew = (MashaS * 0.1) + MashaS;
+        double DenisSNew = (DenisS * 0.1) + DenisS;
+        double KristinaSNew = (KristinaS * 0.1) + KristinaS;
+        System.out.println("Маша теперь получает "+ MashaSNew +" рублей. Годовой доход вырос на "+ (MashaSNew - MashaS) +" рублей");
+        System.out.println("Денис теперь получает "+ DenisSNew +" рублей. Годовой доход вырос на "+ (DenisSNew - DenisS) +" рублей");
+        System.out.println("Кристина теперь получает "+ KristinaSNew +" рублей. Годовой доход вырос на "+ (KristinaSNew - KristinaS) +" рублей");
     }
 }
