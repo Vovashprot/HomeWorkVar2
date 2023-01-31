@@ -5,6 +5,7 @@ public class Main {
         task3();
         task4();
         task5();
+        task6();
     }
     public static void task1(){
         System.out.println("Задача 1");
@@ -60,5 +61,8 @@ public class Main {
         int brownGlob = brownForClass * classN;
         int whiteGlob = whiteForClass * classN;
         System.out.println("В школе, где " + classN + " классов, нужно " + whiteGlob + " банок белой краски и " + brownGlob + " банок коричневой краски");
+    }
+    public static void task6(){
+
     }
 }
